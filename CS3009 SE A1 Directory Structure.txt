@@ -1,0 +1,191 @@
+PS C:\Users\zubai\Downloads\Java\CS3009-SE-A1> tree /F
+Folder PATH listing for volume OS
+Volume serial number is DA6E-4EE6
+C:.
+│   CS3009 SE A1 Compilation Commands.txt
+│   
+├───base
+│   ├───client
+│   │       Main.java
+│   │       PaymentClient.java
+│   │       
+│   ├───com
+│   │   └───alphasoft
+│   │       └───base
+│   │           ├───client
+│   │           │       Main.class
+│   │           │       PaymentClient.class
+│   │           │       
+│   │           ├───core
+│   │           │       PaymentService.class
+│   │           │       
+│   │           ├───external
+│   │           │       LegacyPayService.class
+│   │           │       
+│   │           └───integration
+│   │                   LegacyPayIntegration.class
+│   │
+│   ├───core
+│   │       PaymentService.java
+│   │       
+│   ├───external
+│   │       LegacyPayService.java
+│   │       
+│   └───integration
+│           LegacyPayIntegration.java
+│
+├───exercise1
+│   ├───client
+│   │       Main.java
+│   │       
+│   ├───com
+│   │   └───alphasoft
+│   │       ├───base
+│   │       │   ├───client
+│   │       │   │       PaymentClient.class
+│   │       │   │       
+│   │       │   └───core
+│   │       │           PaymentService.class
+│   │       │
+│   │       └───exercise1
+│   │           ├───client
+│   │           │       Main.class
+│   │           │       
+│   │           ├───external
+│   │           │       CentPayService.class
+│   │           │       
+│   │           └───integration
+│   │                   CentPayIntegration.class
+│   │
+│   ├───external
+│   │       CentPayService.java
+│   │       
+│   └───integration
+│           CentPayIntegration.java
+│
+├───exercise2
+│   ├───client
+│   │       Main.java
+│   │       
+│   ├───com
+│   │   └───alphasoft
+│   │       ├───base
+│   │       │   ├───client
+│   │       │   │       PaymentClient.class
+│   │       │   │
+│   │       │   └───core
+│   │       │           PaymentService.class
+│   │       │
+│   │       └───exercise2
+│   │           ├───client
+│   │           │       Main.class
+│   │           │
+│   │           ├───external
+│   │           │       GlobalPayService.class
+│   │           │
+│   │           └───integration
+│   │                   GlobalPayIntegration.class
+│   │
+│   ├───external
+│   │       GlobalPayService.java
+│   │
+│   └───integration
+│           GlobalPayIntegration.java
+│
+├───exercise3
+│   ├───client
+│   │       Main.java
+│   │       
+│   ├───com
+│   │   └───alphasoft
+│   │       ├───base
+│   │       │   ├───client
+│   │       │   │       PaymentClient.class
+│   │       │   │
+│   │       │   └───core
+│   │       │           PaymentService.class
+│   │       │
+│   │       └───exercise3
+│   │           ├───client
+│   │           │       Main.class
+│   │           │
+│   │           ├───external
+│   │           │       ConfirmPayService.class
+│   │           │
+│   │           └───integration
+│   │                   ConfirmPayIntegration.class
+│   │
+│   ├───external
+│   │       ConfirmPayService.java
+│   │
+│   └───integration
+│           ConfirmPayIntegration.java
+│
+├───exercise4
+│   ├───client
+│   │       .LCKMain.java~
+│   │       Main.java
+│   │
+│   ├───com
+│   │   └───alphasoft
+│   │       ├───base
+│   │       │   ├───client
+│   │       │   │       PaymentClient.class
+│   │       │   │
+│   │       │   └───core
+│   │       │           PaymentService.class
+│   │       │
+│   │       └───exercise4
+│   │           ├───client
+│   │           │       Main.class
+│   │           │
+│   │           ├───external
+│   │           │       GlobalPayService.class
+│   │           │       LegacyPayService.class
+│   │           │
+│   │           └───integration
+│   │                   GlobalPayIntegration.class
+│   │                   LegacyPayIntegration.class
+│   │                   ProviderRegistry.class
+│   │                   SwitchablePaymentService.class
+│   │
+│   ├───external
+│   │       GlobalPayService.java
+│   │       LegacyPayService.java
+│   │
+│   └───integration
+│           GlobalPayIntegration.java
+│           LegacyPayIntegration.java
+│           ProviderRegistry.java
+│           SwitchablePaymentService.java
+│
+└───exercise5
+    ├───client
+    │       Main.java
+    │
+    ├───com
+    │   └───alphasoft
+    │       ├───base
+    │       │   ├───client
+    │       │   │       PaymentClient.class
+    │       │   │
+    │       │   └───core
+    │       │           PaymentService.class
+    │       │
+    │       └───exercise5
+    │           ├───client
+    │           │       Main.class
+    │           │
+    │           ├───external
+    │           │       MockPayService.class
+    │           │
+    │           └───integration
+    │                   MockPayIntegration.class
+    │
+    ├───external
+    │       MockPayService.java
+    │
+    └───integration
+            MockPayIntegration.java
+
+PS C:\Users\zubai\Downloads\Java\CS3009-SE-A1> 

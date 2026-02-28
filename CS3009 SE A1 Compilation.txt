@@ -1,0 +1,45 @@
+cd C:\Users\zubai\Downloads\Java\CS3009-SE-A1\base
+
+javac -d . core\PaymentService.java client\PaymentClient.java client\Main.java external\LegacyPayService.java integration\LegacyPayIntegration.java
+
+java com.alphasoft.base.client.Main
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd C:\Users\zubai\Downloads\Java\CS3009-SE-A1\exercise1
+
+javac -d . ..\base\core\PaymentService.java ..\base\client\PaymentClient.java external\CentPayService.java integration\CentPayIntegration.java client\Main.java
+
+java com.alphasoft.exercise1.client.Main
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd C:\Users\zubai\Downloads\Java\CS3009-SE-A1\exercise2
+
+javac -d . ..\base\core\PaymentService.java ..\base\client\PaymentClient.java external\GlobalPayService.java integration\GlobalPayIntegration.java client\Main.java
+
+java com.alphasoft.exercise2.client.Main
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd C:\Users\zubai\Downloads\Java\CS3009-SE-A1\exercise3
+
+javac -d . ..\base\core\PaymentService.java ..\base\client\PaymentClient.java external\ConfirmPayService.java integration\ConfirmPayIntegration.java client\Main.java
+
+java com.alphasoft.exercise3.client.Main
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd C:\Users\zubai\Downloads\Java\CS3009-SE-A1\exercise4
+
+javac -d . ..\base\core\PaymentService.java ..\base\client\PaymentClient.java external\LegacyPayService.java external\GlobalPayService.java integration\LegacyPayIntegration.java integration\GlobalPayIntegration.java integration\ProviderRegistry.java integration\SwitchablePaymentService.java client\Main.java
+
+java com.alphasoft.exercise4.client.Main
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd C:\Users\zubai\Downloads\Java\CS3009-SE-A1\exercise5
+
+javac -d . ..\base\core\PaymentService.java ..\base\client\PaymentClient.java external\MockPayService.java integration\MockPayIntegration.java client\Main.java
+
+java com.alphasoft.exercise5.client.Main
